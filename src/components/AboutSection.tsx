@@ -108,7 +108,7 @@ export const AboutSection: React.FC = () => {
               </div>
               <div className="flex items-center gap-3 text-white/80 dark:text-white/80 light:text-gray-700">
                 <FileText size={16} className="text-blue-400" />
-                <a href="https://drive.google.com/file/d/17hPGL-HJV_eGI7OOmgQn0pwr_cYjwVXt/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-blue-400 transition-colors">
+                <a href="https://drive.google.com/file/d/1PK9SgnMZb09P4Qskv8wIhFbyQYM3hpsQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-blue-400 transition-colors">
                   View Resume
                 </a>
               </div>

@@ -84,7 +84,7 @@ const AboutInfo: React.FC<{ onSectionChange?: (section: string) => void }> = ({ 
           </span>
         </h1>
         <a
-          href="https://drive.google.com/file/d/17hPGL-HJV_eGI7OOmgQn0pwr_cYjwVXt/view?usp=sharing"
+          href="https://drive.google.com/file/d/1PK9SgnMZb09P4Qskv8wIhFbyQYM3hpsQ/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1 px-3 py-1 bg-blue-500/20 hover:bg-blue-500/30 text-blue-400 hover:text-blue-300 rounded-full text-sm font-medium transition-all duration-200 border border-blue-400/30 hover:border-blue-400/50"
@@ -278,7 +278,7 @@ const AboutInfo: React.FC<{ onSectionChange?: (section: string) => void }> = ({ 
           <a href="https://blog.fosspage.tech" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
             blog.fosspage.tech
           </a>
-          <a href="https://drive.google.com/file/d/17hPGL-HJV_eGI7OOmgQn0pwr_cYjwVXt/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
+                                           <a href="https://drive.google.com/file/d/1PK9SgnMZb09P4Qskv8wIhFbyQYM3hpsQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
             📄 Resume
           </a>
         </div>
