@@ -21,7 +21,7 @@ const navigationItems = [
 const socialItems = [
   { id: 'github', label: 'GitHub', icon: Github, url: 'https://github.com/prathamdupare' },
   { id: 'linkedin', label: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/pratham-dupare-a99b97247' },
-  { id: 'youtube', label: 'YouTube', icon: Youtube, url: 'https://www.youtube.com/prathammdupare' },
+  { id: 'youtube', label: 'YouTube', icon: Youtube, url: 'https://www.youtube.com/@prathammdupare' },
   { id: 'blog', label: 'Blog', icon: Globe, url: 'https://blog.fosspage.tech' },
   { id: 'resume', label: 'Resume', icon: FileText, url: 'https://drive.google.com/file/d/17hPGL-HJV_eGI7OOmgQn0pwr_cYjwVXt/view?usp=sharing' },
 ];

@@ -42,7 +42,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - **GitHub**: [github.com/prathamdupare](https://github.com/prathamdupare)
 - **LinkedIn**: [linkedin.com/in/pratham-dupare-a99b97247](https://linkedin.com/in/pratham-dupare-a99b97247)
 - **Website**: [blog.fosspage.tech](https://blog.fosspage.tech)
-- **YouTube**: [youtube.com/prathammdupare](https://www.youtube.com/prathammdupare)
+- **YouTube**: [youtube.com/@prathammdupare](https://www.youtube.com/@prathammdupare)
 
 ## Achievements
 
