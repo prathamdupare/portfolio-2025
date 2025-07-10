@@ -35,10 +35,17 @@ const AppIcon: React.FC<{ icon: React.ReactNode; name?: string; className?: stri
 };
 
 export const AndroidPreview: React.FC = () => {
+  const [searchQuery, setSearchQuery] = React.useState('Who is Pratham Dupare?');
+
   const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
-      window.open('https://google.com', '_blank');
+      const encodedQuery = encodeURIComponent(searchQuery);
+      window.open(`https://www.google.com/search?q=${encodedQuery}`, '_blank');
     }
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value);
   };
 
   return (
@@ -103,7 +110,8 @@ export const AndroidPreview: React.FC = () => {
           </div>
           <input
             type="text"
-            placeholder="Who is Pratham?"
+            value={searchQuery}
+            onChange={handleInputChange}
             onKeyDown={handleSearch}
             className="flex-1 bg-transparent text-gray-200 dark:text-gray-200 light:text-gray-700 placeholder-gray-400 dark:placeholder-gray-400 light:placeholder-gray-500 text-sm outline-none border-none h-6 flex items-center"
           />
