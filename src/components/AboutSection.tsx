@@ -4,7 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Badge } from './ui/badge';
 import { GlassCard } from './ui/GlassCard';
-import { Mail, MapPin, Calendar, Award, Phone, Globe, Github, Linkedin, FileText } from 'lucide-react';
+import { Mail, MapPin, Award, Phone, Globe, Github, Linkedin, FileText } from 'lucide-react';
 
 export const AboutSection: React.FC = () => {
   const skills = [
@@ -250,7 +250,7 @@ export const AboutSection: React.FC = () => {
               Background
             </h3>
             <p className="text-white/80 dark:text-white/80 light:text-gray-700 text-sm leading-relaxed">
-              I'm a passionate software developer currently pursuing BS-MS Mathematics at IISER Bhopal 
+              I&apos;m a passionate software developer currently pursuing BS-MS Mathematics at IISER Bhopal 
               and a Diploma in Programming from IIT Madras. I specialize in modern web technologies, 
               browser extensions, and full-stack development. I love building applications that solve 
               real-world problems and have a keen interest in creating productive tools and educational content.

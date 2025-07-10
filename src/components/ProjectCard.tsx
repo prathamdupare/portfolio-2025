@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { GlassCard } from './ui/GlassCard';
-import { ExternalLink, Github, Pin, PinOff } from 'lucide-react';
+import { ExternalLink, Github, Pin } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import type { ProjectCardProps } from '@/types/project';
 
